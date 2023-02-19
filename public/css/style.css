@@ -1,20 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@700&display=swap');
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
-}
-/*font-family: 'Noto Sans', sans-serif;*/
-
-
-.letras-container{
-
+    font-style: normal;
+    font-weight: 700;
 }
 
-.jogo-container{
+
+main {
     display: flex;
-    width: 400px;
-    height: 467px;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
 }
+
+
+
+/*inicio estilização Jogo*/
+
+.jogo-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 60px;
+}
+
+.jogo-left {
+    width: 50%;
+}
+
+.jogo-left img {
+    width: 400px;
+    height: 466.67px;
+}
+
+.jogo-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background: #27AE60;
+    border-radius: 8px;
+    border: none;
+}
+
+.jogo-button {
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+}
+
+/*fim estilização jogo*/
