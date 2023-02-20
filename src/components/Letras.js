@@ -3,7 +3,13 @@ export const Letras = () => {
 
   return (
     <div className="letras-container">
-      
+      <div className="letra">
+        {alfabeto.map(l => {
+          return <button key={l} disabled={true}>
+            {l.toUpperCase()}
+          </button>
+        })}
+      </div>
     </div>
   )
 }
