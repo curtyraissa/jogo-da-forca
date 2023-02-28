@@ -114,7 +114,7 @@
 ## 🚀 &nbsp;Links
 
 - [Figma](https://www.figma.com/file/pBXcqQZlun3INESEf0kwDP/Jogo-da-Forca?node-id=0%3A1).<br/>
-- [Deploy](projeto8-jogoforca-akfyhi1t8-curtyraissa.vercel.app).<br/>
+- [Deploy](https://projeto8-jogoforca-akfyhi1t8-curtyraissa.vercel.app).<br/>
 
 <hr/>
 
