@@ -4,20 +4,20 @@
 
 ✅ Requisitos
 - Geral
-    - [ ]  Manipule o HTML usando somente React.
-    - [ ]  Você deve criar o projeto com o `create-react-app` padrão, SEM usar nenhum *template*, e delete os arquivos que não serão utilizados.
-    - [ ]  O template gerará os arquivos base, incluindo o arquivo `package.json` e `package-lock.json`. Esses arquivos devem estar **sempre** na raiz do repositório no GitHub. Se tiver dentro de uma pasta do repositório, a avaliação vai falhar. Além do bot não aceitar, não é uma boa prática.
+    - [x]  Manipule o HTML usando somente React.
+    - [x]  Você deve criar o projeto com o `create-react-app` padrão, SEM usar nenhum *template*, e delete os arquivos que não serão utilizados.
+    - [x]  O template gerará os arquivos base, incluindo o arquivo `package.json` e `package-lock.json`. Esses arquivos devem estar **sempre** na raiz do repositório no GitHub. Se tiver dentro de uma pasta do repositório, a avaliação vai falhar. Além do bot não aceitar, não é uma boa prática.
     - ✅ **Certo** ⇒ `projeto8-jogoforca` > `package.json`
     - ❌ **Errado** ⇒ `projeto8-jogoforca` > outra pasta > `package.json`
-    - [ ]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub.
-    - [ ]  A cada requisito implementado faça um *commit* com uma mensagem descritiva do que você evoluiu. Caso queira dividir um requisito em vários *commits*, não há problema. Mas evite colocar mais de um requisito no mesmo *commit.*
-    - [ ]  Muito cuidado para não committar a `node_modules`. Se ela estiver committada, a avaliação também falhará. Não é boa prática comittar essa pasta no git.
-    - [ ]  Não é permitido o uso de `useEffect`!
+    - [x]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub.
+    - [x]  A cada requisito implementado faça um *commit* com uma mensagem descritiva do que você evoluiu. Caso queira dividir um requisito em vários *commits*, não há problema. Mas evite colocar mais de um requisito no mesmo *commit.*
+    - [x]  Muito cuidado para não committar a `node_modules`. Se ela estiver committada, a avaliação também falhará. Não é boa prática comittar essa pasta no git.
+    - [x]  Não é permitido o uso de `useEffect`!
 - Componentização
-    - [ ]  O seu jogo deverá ter 3 componentes:
-        - [ ]  `App` (chamará os demais componentes)
-        - [ ]  `Jogo` (imagem da forca, botão de iniciar, palavra do jogo)
-        - [ ]  `Letras` (conjunto de botões com as letras)
+    - [x]  O seu jogo deverá ter 3 componentes:
+        - [x]  `App` (chamará os demais componentes)
+        - [x]  `Jogo` (imagem da forca, botão de iniciar, palavra do jogo)
+        - [x]  `Letras` (conjunto de botões com as letras)
     - 🔥 Dica
         - Mantenha todos os estados da aplicação no `App` e passe seus valores como `props` para os componentes que precisarem!
             
