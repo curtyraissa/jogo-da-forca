@@ -21,7 +21,7 @@
     - 🔥 Dica
         - Mantenha todos os estados da aplicação no `App` e passe seus valores como `props` para os componentes que precisarem!
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b40f1d1-babe-4a26-a672-7a8a2626801f/Untitled.png)
+            ![Untitled](./layout-props.png)
             
         
 - Pré-jogo
